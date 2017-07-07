@@ -1,13 +1,4 @@
 var lyrics = [];
-function lifo_stack(){
-    this.stack = [];
-    this.push = function(item){
-        this.stack.push(item);
-    };
-    this.pop = function(){
-        
-    };
-};
 function person(){ 
         this.refer_to_me= 'he';
         this.listen_to= function(words){
